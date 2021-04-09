@@ -1,0 +1,11 @@
+<p>
+    <mat-toolbar>
+        <span>Music</span>
+    </mat-toolbar>
+</p>
+<div class="search-container">
+    <app-busqueda-cancion (searchQuery)="searchSong($event)"> </app-busqueda-cancion>
+</div>
+<div class="card-container">
+    <app-objeto-cancion [music]="music"></app-objeto-cancion>
+</div>
