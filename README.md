@@ -1,6 +1,17 @@
 # ApiMusic
 
-npm run prod to build project
+1. package.json:
+"scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "prod": "ng build --prod --base-href=\"./\""
+    },
+2. npm run prod to build project
+3. angular.json: "architech""build""options":"outpath":"name to replace your dist"
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
