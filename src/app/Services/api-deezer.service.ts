@@ -9,8 +9,9 @@ import { Coleccion } from 'src/app/Model/cancion.model';
 })
 export class ApiDeezerService {
 
-  //iTunesUrl = 'https://itunes.apple.com/search';
-  iTunesUrl = 'http://localhost:4200/api';
+  //iTunesUrl = 'http://localhost:4200/api';
+  iTunesUrl = 'https://freddyapimusicdeezer.herokuapp.com/api';
+
   
   music!: Observable<Coleccion[]>;
 
