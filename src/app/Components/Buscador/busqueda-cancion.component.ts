@@ -13,9 +13,12 @@ export class BusquedaCancionComponent implements OnInit {
 
   constructor(private apiService: ApiDeezerService) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.passQueryString('a');
+  }
 
   passQueryString(value:any) {
+
     this.searchQuery.emit(value);
     this.apiService.clearCache();
   }

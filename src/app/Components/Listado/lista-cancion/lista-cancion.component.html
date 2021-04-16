@@ -1,11 +1,14 @@
-<p>
-    <mat-toolbar>
-        <span>Music</span>
-    </mat-toolbar>
-</p>
+<mat-toolbar>
+    <span><img src="./assets/logo.png" class="imglogo"></span>
+    <span style="float: right;">Mi Musica</span>
+</mat-toolbar>
 <div class="search-container">
     <app-busqueda-cancion (searchQuery)="searchSong($event)"> </app-busqueda-cancion>
 </div>
+
 <div class="card-container">
+    <div style="text-align: center;">
+        <p>Resultados:</p>
+    </div>
     <app-objeto-cancion [music]="music"></app-objeto-cancion>
 </div>

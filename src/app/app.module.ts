@@ -1,4 +1,4 @@
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { BusquedaCancionComponent } from './Components/Buscador/busqueda-cancion.component';
 import { ListaCancionComponent } from './Components/Listado/lista-cancion/lista-cancion.component';
 import { ObjetoCancionComponent } from './Components/Objeto/objeto-cancion/objeto-cancion.component';
+
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ObjetoCancionComponent } from './Components/Objeto/objeto-cancion/objet
     AppRoutingModule,
     MusicModuleModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientJsonpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

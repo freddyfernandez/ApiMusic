@@ -62,11 +62,14 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "apiMusic:build"
+                        "browserTarget": "apiMusic:build",
+                        "proxyConfig": "proxy.conf.json"
+
                     },
                     "configurations": {
                         "production": {
                             "browserTarget": "apiMusic:build:production"
+
                         }
                     }
                 },

@@ -15,8 +15,22 @@
 }
 
 .mat-toolbar {
-    background-color: #000000de;
+    padding: 0px;
+    box-sizing: unset;
+    background-color: #ae4747de;
     span {
         color: #ffffff;
+    }
+}
+
+.imglogo {
+    width: 90px;
+    margin-top: 9px;
+    padding: 5px;
+}
+
+@media (max-width: 380px) {
+    .mat-toolbar {
+        padding: 0px 10px;
     }
 }

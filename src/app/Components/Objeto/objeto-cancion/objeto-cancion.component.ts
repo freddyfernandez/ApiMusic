@@ -15,7 +15,7 @@ export class ObjetoCancionComponent implements OnInit {
   ngOnInit(): void {}
 
   playSong(audio: any) {
-    this.player.src = audio.previewUrl;
+    this.player.src = audio.preview;
     this.player.play();
   }
   stopSong(audio: any) {

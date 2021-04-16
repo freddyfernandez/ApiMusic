@@ -1,15 +1,15 @@
 export interface Coleccion{
-    resultCount:number;
-    result : Cancion[];
+    total: number; 
+    data : Cancion[];
     
 }
 
 export interface Cancion{
-    artistName:string;
-    trackName : string;
-    collectionName: string;
+    title:string;
+    link : string;
+    duration: number;
     country:string;
-    trackNumber:number;
-    primaryGenreName:string;
+    type:string;
+    md5_image:string;
     
 }

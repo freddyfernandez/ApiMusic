@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "https://api.deezer.com/search",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}
