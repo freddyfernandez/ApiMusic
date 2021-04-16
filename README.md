@@ -1,5 +1,7 @@
 # ApiMusic
 
+npm run prod to build project
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
 ## Development server
